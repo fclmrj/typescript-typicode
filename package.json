@@ -1,0 +1,20 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "codigos para javascript",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "start": "tsc -w",
+    "server": "lite-server --baseDir=app"
+  },
+  "author": "Fabio Moura",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.5.4",
+    "node-fetch": "^2.6.0",
+    "typescript": "^2.3.2"
+  }
+}
