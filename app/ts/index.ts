@@ -1,4 +1,3 @@
-/*coments*/
 import {Typicode} from 'typicode'
 
 const divPosts = document.querySelector('[posts]')
