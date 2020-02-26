@@ -5,5 +5,5 @@ fetch('https://jsonplaceholder.typicode.com/todos')
     .filter((element) => element.userId == 9)
     .forEach((element) => {
     console.log(element.userId + ' - ' + element.id + ' - ' + element.title);
-    divPosts.innerHTML += `<a href="#" class="list-group-item list-group-item-action">${element.title}</a>`;
+    divPosts.innerHTML += `<a href="#" data-id="${element.id}" class="list-group-item list-group-item-action">${element.title}</a>`;
 }));
