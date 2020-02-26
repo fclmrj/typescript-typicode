@@ -10,4 +10,4 @@ Project that explore typescript environment configurations and also features of 
 - This project was configured with lite-server that provide one unique entry point for initial request "/" at server 
 
 ## Run commands
-- For run this project use command "npm run start" in a terminal and with a new terminal execute the command "npm run server"
+- To run this project use command "npm run start" in a terminal and with a new terminal execute the command "npm run server"
