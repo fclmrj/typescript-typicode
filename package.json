@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "lite-server": "^2.5.4",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^3.1.1",
     "typescript": "^2.3.2"
   }
 }
